@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title></title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script
+    type="text/javascript"
+    src="/js/lib/dummy.js"
+    
+  ></script>
+
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+
+
+  <style id="compiled-css" type="text/css">
+      
+    /* EOS */
+  </style>
+
+  <script id="insert"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+input[type="text"]
+{
+    font-size:36px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body onload="myFunction12()">
+
+
+<h1 style="font-family:verdana;">Theme Emoji Standards</h1>
+<h2 style="font-family:verdana;">Integration</h2>
+
+<script>
+function myFunction12() {
+number1 = 0,
+number = 0,
+number2 = 0,
+number3 = 0,
+number4 = 0,
+number5 = 0,
+number6 = 0,
+number7 = 0}
+</script>
+<p style="font-family:verdana;">Please select the relevant themes for an integrated session, then click on the 'generate' button. </p>
+<form>
+        <label style="font-family:verdana;">Pharmaceutics </label>
+        <input type="checkbox" class="priority" name="priorityN" onclick="getResults7();"
+        value=0.5 /><br>
+
+ <label style="font-family:verdana;">Pharmaceutical Chemistry </label>
+        <input type="checkbox" class="priority" name="priorityN" onclick="getResults1();"
+        value=0.5 /><br>
+       
+	   <label style="font-family:verdana;">Pharmacology & Therapeutics</label>
+        <input type="checkbox" class="priority" name="priorityN" onclick="getResults2();"
+        value=0.5 /><br>
+		
+		<label style="font-family:verdana;">Cellular & Molecular Biosciences</label>
+        <input type="checkbox" class="priority" name="priorityN" onclick="getResults3();"
+        value=0.5 /><br>
+        
+		<label style="font-family:verdana;">Human Biology</label>
+        <input type="checkbox" class="priority" name="priorityN" onclick="getResults4();"
+        value=0.5 /><br>
+		
+		<label style="font-family:verdana;">Clinical Pharmacy </label>
+        <input type="checkbox" class="priority" name="priorityN" onclick="getResults5();"
+        value=0.5 /><br>
+		
+        <label style="font-family:verdana;">Pharmacy Practice </label>
+        <input type="checkbox" class="priority" name="priorityN" onclick="getResults6();"
+        value=0.5 /><br>
+		
+       
+    </form>
+
+<div id="myLink"></div>
+
+    <script> function getResults1() {number1 = 0.2;}</script>
+    <script> function getResults2() {number2 = 0.2;}</script>
+    <script> function getResults3() {number3 = 0.2;}</script>
+    <script> function getResults4() {number4 = 0.2;}</script>
+    <script> function getResults5() {number5 = 0.2;}</script>
+    <script> function getResults6() {number6 = 0.2;}</script>
+    <script> function getResults7() {number7 = 0.2;}</script>
+
+
+
+
+
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    
+<br>
+<button id="generate" onclick="myFunction()">Generate</button>
+<button onClick="window.location.href=window.location.href">Refresh Page</button>
+<p style="font-family:verdana;">Right click on the image below then either copy or save as to use</p>
+<div id="piechart" style="width: 900px; height: 500px;"></div>
+
+
+
+
+<script>
+function myFunction() {
+  
+
+ google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Theme', 'Ratio'],
+          ['🧴',  1],
+          ['🧪',  1],
+          ['💊', 1],
+          ['🧬', 1], 
+	  ['❤️',  1],
+          ['📈',  1],
+          ['🩺', 1],
+        ]);
+
+      var options = {
+        legend: 'none',
+        pieSliceText: 'label',
+	enableInteractivity: 'FALSE',
+        colors:['#88CEF3'],
+	fontSize: '32',
+	slices: {  
+    
+    1: {offset: id=number1},
+    2: {offset: id=number2},               
+    3: {offset: id=number3},               
+   4: {offset: id=number4},                
+   5: {offset: id=number5},
+   6: {offset: id=number6},
+   0: {offset: id=number7}
+   },
+        pieStartAngle: 100,
+      };
+
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+       
+
+
+
+
+var my_div = document.getElementById('piechart');
+    
+
+    google.visualization.events.addListener(chart, 'ready', function () {
+      my_div.innerHTML = '<img src="' + chart.getImageURI() + '">';
+    });
+
+
+
+
+     chart.draw(data, options);
+      };}
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+<script>
+{
+  
+
+ google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Theme', 'Ratio'],
+          ['🧴',  1],
+          ['🧪',  1],
+          ['💊', 1],
+          ['🧬', 1], 
+	  ['❤️',  1],
+          ['📈',  1],
+          ['🩺', 1],
+        ]);
+
+      var options = {
+        legend: 'none',
+        pieSliceText: 'label',
+	enableInteractivity: 'FALSE',
+        colors:['#88CEF3'],
+	fontSize: '32',
+	slices: {  
+    
+    1: {offset: id=number1},
+    2: {offset: id=number2},               
+    3: {offset: id=number3},               
+   4: {offset: id=number4},                
+   5: {offset: id=number5},
+   6: {offset: id=number6},
+   0: {offset: id=number7}
+   },
+        pieStartAngle: 100,
+      };
+
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+       
+
+
+
+
+var my_div = document.getElementById('piechart');
+    
+
+    google.visualization.events.addListener(chart, 'ready', function () {
+      my_div.innerHTML = '<img src="' + chart.getImageURI() + '">';
+    });
+
+
+
+
+     chart.draw(data, options);
+      };}
+
+
+
+
+
+
+
+
+
+
+</script>
+
+<h2 style="font-family:verdana;">Copy/Paste Emoji</h2>
+<p style="font-family:verdana;"> Please use this page to copy/paste the relevant emoji for use in your work </p>
+<div class="row">
+  <div class="column" >
+
+<h3 style="font-family:verdana;">Drugs & Medicines </h1>
+
+<p style="font-family:verdana;">Pharmaceutics</p>
+
+<input type="text" value="🧴" id="myInput2" input size="1">
+
+<div class="tooltip">
+<button onclick="myFunction2()" onmouseout="outFunc()">
+  <span class="tooltiptext" id="myTooltip2">Copy to clipboard</span>
+  Copy Emoji
+  </button>
+</div>
+
+<p style="font-family:verdana;">Pharmaceutical Chemistry</p>
+
+<input type="text" value="🧪" id="myInput3" input size="1">
+
+<div class="tooltip">
+<button onclick="myFunction3()" onmouseout="outFunc()">
+  <span class="tooltiptext" id="myTooltip3">Copy to clipboard</span>
+  Copy Emoji
+  </button>
+</div>
+</div>
+  <div class="column">
+<h3 style="font-family:verdana;">Health, Disease & Patient</h1>
+<p style="font-family:verdana;">Pharmacology & Therapeutics</p>
+
+<input type="text" value="💊" id="myInput4" input size="1">
+
+<div class="tooltip">
+<button onclick="myFunction4()" onmouseout="outFunc()">
+  <span class="tooltiptext" id="myTooltip4">Copy to clipboard</span>
+  Copy Emoji
+  </button>
+</div>
+
+<p style="font-family:verdana;">Cellular & Molecular Biosciences</p>
+
+<input type="text" value="🧬" id="myInput5" input size="1">
+
+<div class="tooltip">
+<button onclick="myFunction5()" onmouseout="outFunc()">
+  <span class="tooltiptext" id="myTooltip5">Copy to clipboard</span>
+  Copy Emoji
+  </button>
+</div>
+
+<p style="font-family:verdana;">Human Biology</p>
+
+<input type="text" value="❤️" id="myInput6" input size="1">
+
+<div class="tooltip">
+<button onclick="myFunction6()" onmouseout="outFunc()">
+  <span class="tooltiptext" id="myTooltip6">Copy to clipboard</span>
+  Copy Emoji
+  </button>
+</div>
+
+
+  </div>
+
+
+
+  <div class="column">
+<h3 style="font-family:verdana;">Practice of Pharmacy</h1>
+<p style="font-family:verdana;">Clinical Pharmacy</p>
+
+<input type="text" value="📈" id="myInput7" input size="1">
+
+<div class="tooltip">
+<button onclick="myFunction7()" onmouseout="outFunc()">
+  <span class="tooltiptext" id="myTooltip7">Copy to clipboard</span>
+  Copy Emoji
+  </button>
+</div>
+<p style="font-family:verdana;">Pharmacy Practice</p>
+
+<input type="text" value="🩺" id="myInput1" input size="1">
+
+<div class="tooltip">
+<button onclick="myFunction1()" onmouseout="outFunc()">
+  <span class="tooltiptext" id="myTooltip1">Copy to clipboard</span>
+  Copy Emoji
+  </button>
+</div>
+</div>
+
+
+
+  <div class="column">
+<h3 style="font-family:verdana;">Digital Thread</h1>
+
+
+<input type="text" value="⚡" id="myInput8" input size="1">
+
+<div class="tooltip">
+<button onclick="myFunction8()" onmouseout="outFunc()">
+  <span class="tooltiptext" id="myTooltip8">Copy to clipboard</span>
+  Copy Emoji
+  </button>
+</div>
+
+</div>
+
+</div>
+<h3 style="font-family:verdana;">Session Type</h1>
+
+ <div class="column">
+
+<p style="font-family:verdana;">Lecture</p>
+
+<input type="text" value="🔴" id="myInput19" input size="1">
+
+<div class="tooltip">
+<button onclick="myFunction19()" onmouseout="outFunc()">
+  <span class="tooltiptext" id="myTooltip19">Copy to clipboard</span>
+  Copy Emoji
+  </button>
+</div>
+
+
+<p style="font-family:verdana;">Workshop</p>
+
+<input type="text" value="🔵" id="myInput20" input size="1">
+
+<div class="tooltip">
+<button onclick="myFunction20()" onmouseout="outFunc()">
+  <span class="tooltiptext" id="myTooltip20">Copy to clipboard</span>
+  Copy Emoji
+  </button>
+</div>
+<p style="font-family:verdana;">Practical</p>
+
+<input type="text" value="⚫" id="myInput21" input size="1">
+
+<div class="tooltip">
+<button onclick="myFunction21()" onmouseout="outFunc()">
+  <span class="tooltiptext" id="myTooltip21">Copy to clipboard</span>
+  Copy Emoji
+  </button>
+</div>
+<p style="font-family:verdana;">Supporting Resources</p>
+
+<input type="text" value="⚪" id="myInput22" input size="1">
+
+<div class="tooltip">
+<button onclick="myFunction22()" onmouseout="outFunc()">
+  <span class="tooltiptext" id="myTooltip22">Copy to clipboard</span>
+  Copy Emoji
+  </button>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<script>
+function myFunction1() {
+  var copyText = document.getElementById("myInput1");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  
+  var tooltip = document.getElementById("myTooltip1");
+  tooltip.innerHTML = "Copied: " + copyText.value;
+}
+
+function outFunc() {
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copy to clipboard";
+}
+</script>
+
+<script>
+function myFunction2() {
+  var copyText = document.getElementById("myInput2");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  
+  var tooltip = document.getElementById("myTooltip2");
+  tooltip.innerHTML = "Copied: " + copyText.value;
+}
+
+function outFunc() {
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copy to clipboard";
+}
+</script>
+
+<script>
+function myFunction3() {
+  var copyText = document.getElementById("myInput3");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  
+  var tooltip = document.getElementById("myTooltip3");
+  tooltip.innerHTML = "Copied: " + copyText.value;
+}
+
+function outFunc() {
+  var tooltip = document.getElementById("myTooltip3");
+  tooltip.innerHTML = "Copy to clipboard";
+}
+</script>
+
+<script>
+function myFunction4() {
+  var copyText = document.getElementById("myInput4");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  
+  var tooltip = document.getElementById("myTooltip4");
+  tooltip.innerHTML = "Copied: " + copyText.value;
+}
+
+function outFunc() {
+  var tooltip = document.getElementById("myTooltip4");
+  tooltip.innerHTML = "Copy to clipboard";
+}
+</script>
+
+<script>
+function myFunction5() {
+  var copyText = document.getElementById("myInput5");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  
+  var tooltip = document.getElementById("myTooltip5");
+  tooltip.innerHTML = "Copied: " + copyText.value;
+}
+
+function outFunc() {
+  var tooltip = document.getElementById("myTooltip5");
+  tooltip.innerHTML = "Copy to clipboard";
+}
+</script>
+
+<script>
+function myFunction6() {
+  var copyText = document.getElementById("myInput6");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  
+  var tooltip = document.getElementById("myTooltip6");
+  tooltip.innerHTML = "Copied: " + copyText.value;
+}
+
+function outFunc() {
+  var tooltip = document.getElementById("myTooltip6");
+  tooltip.innerHTML = "Copy to clipboard";
+}
+</script>
+
+<script>
+function myFunction7() {
+  var copyText = document.getElementById("myInput7");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  
+  var tooltip = document.getElementById("myTooltip7");
+  tooltip.innerHTML = "Copied: " + copyText.value;
+}
+
+function outFunc() {
+  var tooltip = document.getElementById("myTooltip7");
+  tooltip.innerHTML = "Copy to clipboard";
+}
+</script>
+<script>
+function myFunction8() {
+  var copyText = document.getElementById("myInput8");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  
+  var tooltip = document.getElementById("myTooltip8");
+  tooltip.innerHTML = "Copied: " + copyText.value;
+}
+
+function outFunc() {
+  var tooltip = document.getElementById("myTooltip8");
+  tooltip.innerHTML = "Copy to clipboard";
+}
+</script>
+<script>
+function myFunction22() {
+  var copyText = document.getElementById("myInput22");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  
+  var tooltip = document.getElementById("myTooltip22");
+  tooltip.innerHTML = "Copied: " + copyText.value;
+}
+
+function outFunc() {
+  var tooltip = document.getElementById("myTooltip22");
+  tooltip.innerHTML = "Copy to clipboard";
+}
+</script>
+
+<script>
+function myFunction19() {
+  var copyText = document.getElementById("myInput19");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  
+  var tooltip = document.getElementById("myTooltip19");
+  tooltip.innerHTML = "Copied: " + copyText.value;
+}
+
+function outFunc() {
+  var tooltip = document.getElementById("myTooltip19");
+  tooltip.innerHTML = "Copy to clipboard";
+}
+</script>
+
+<script>
+function myFunction20() {
+  var copyText = document.getElementById("myInput20");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  
+  var tooltip = document.getElementById("myTooltip20");
+  tooltip.innerHTML = "Copied: " + copyText.value;
+}
+
+function outFunc() {
+  var tooltip = document.getElementById("myTooltip20");
+  tooltip.innerHTML = "Copy to clipboard";
+}
+</script>
+
+
+
+<script>
+function myFunction21() {
+  var copyText = document.getElementById("myInput21");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  
+  var tooltip = document.getElementById("myTooltip21");
+  tooltip.innerHTML = "Copied: " + copyText.value;
+}
+
+function outFunc() {
+  var tooltip = document.getElementById("myTooltip21");
+  tooltip.innerHTML = "Copy to clipboard";
+}
+</script>
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
